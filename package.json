@@ -1,7 +1,7 @@
 {
   "name": "homebridge-ecoflow",
   "displayName": "EcoFlow",
-  "alias": "EcoFlowBattery",
+  "alias": "HomebridgeEcoFlow",
   "description": "Homebridge plugin for Ecoflow Smart Power Stations",
   "version": "1.0.0",
   "main": "dist/index.js",
