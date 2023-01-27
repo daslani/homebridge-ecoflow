@@ -1,0 +1,35 @@
+{
+  "pluginAlias": "HomebridgeEcoFlow",
+  "pluginType": "accessory",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "serialNumber": {
+        "title": "Serial Number",
+        "type": "string",
+        "required": true,
+        "description": "Serial number of the EcoFlow device, available in EcoFlow App or on the device."
+      },
+      "appKey": {
+        "title": "App Key",
+        "type": "string",
+        "required": true,
+        "description": "Application key from EcoFlow support."
+      },
+      "secretKey": {
+        "title": "Secret Key",
+        "type": "string",
+        "required": true,
+        "description": "Application key secret from EcoFlow support."
+      },
+      "firmwareVersion": {
+        "title": "Firmware Version",
+        "type": "string",
+        "required": true,
+        "default": "v1.0",
+        "description": "Firmware version of EcoFlow device."
+      }
+    }
+  }
+}
